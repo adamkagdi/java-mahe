@@ -5,6 +5,8 @@ import java.util.Scanner;
 class Relational{
     double a;
     double b;
+    double x;
+    double y;
 }
 public class Check {
     public static void main(String[] args) {
@@ -21,9 +23,13 @@ public class Check {
         System.out.println(r1.a < r1.b);
         System.out.println(r1.a >= r1.b);
         System.out.println(r1.a <= r1.b);
-
         System.out.println(r1.a > r1.b && r1.a > 8);
         System.out.println(r1.b > r1.a || r1.b > 7);
         System.out.println(!(r1.a == r1.b));
+
+        r1.x = 7;
+        r1.y = 8;
+        r1.x += r1.y;
+        System.out.println(r1.x);
     }
 }
