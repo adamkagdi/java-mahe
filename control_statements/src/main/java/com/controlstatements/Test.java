@@ -10,7 +10,14 @@ public class Test {
         System.out.println("Enter any second number: ");
         double y = s1.nextDouble();
         if (x > y){
-            System.out.println("x is the greatest");
+            System.out.println("x is the greatest.");
+        }
+        else
+        if (y > x){
+            System.out.println("y is the greatest.");
+        }
+        else{
+            System.out.println("Both are equal values.");
         }
     }
 }
