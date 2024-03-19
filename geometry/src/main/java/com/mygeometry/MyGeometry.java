@@ -28,6 +28,9 @@ class Math {
 }
 
 class MyGeometry {
+    static{
+        System.out.println("Welcome to my program.");
+    }
     public static void main(String[] args) {
         Math g1 = new Math();
         g1.r = 4;
