@@ -6,7 +6,7 @@ class Math {
     double b;
     double h;
     double r;
-
+    
     void areaOfRec(){
         System.out.println("The area of the Rectriangle is: "+ (l * b));
     }
